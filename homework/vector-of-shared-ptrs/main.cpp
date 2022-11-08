@@ -9,6 +9,7 @@ int main() {
     print(vec);
     sub10(vec);
     print(vec);
-
+    auto ptr = std::make_shared<int>(10);
+    sub10(ptr.get());
     return 0;
 }
