@@ -9,5 +9,6 @@ int main() {
     print(vec);
     sub10(vec);
     print(vec);
+
     return 0;
 }
